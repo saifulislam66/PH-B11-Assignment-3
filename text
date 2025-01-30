@@ -1,0 +1,35 @@
+banner h-[90vh] bg-bottom md:bg-right bg-contain bg-no-repeat
+bg-[url('./assets/cat-big.png')]
+
+<!-- boro kutta  -->
+<div
+  class="col-span-3 rounded-lg flex justify-between items-start md:items-center bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] max-h-96"
+>
+  <div class="p-10">
+    <h5 class="text-lg text-gray-800">Under Price</h5>
+    <h3 class="text-[23px] font-bold text-gray-800">Pet Grooming Mitt</h3>
+    <p class="text-2xl text-white font-semibold">(Easy Hair Removal)</p>
+    <div>
+      <span class="text-[54px] font-bold text-gray-800">$7.99</span>
+    </div>
+  </div>
+  <!-- img  -->
+  <div class="h-full">
+    <img class="w-auto h-fit" src="./assets/cute-dog-mid.png" alt="" />
+  </div>
+</div>
+<!-- choto kutta -->
+<div
+  class="flex col-span-2 bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] max-h-96"
+>
+  <div class="p-10">
+    <h5 class="text-lg text-gray-800">Under Price</h5>
+    <h3 class="text-[23px] font-bold text-gray-800">Pet Grooming Mitt</h3>
+    <div>
+      <span class="text-[54px] font-bold text-gray-800">$7.99</span>
+    </div>
+  </div>
+  <div>
+    <img src="./assets/cute-pet-mid.png" alt="" />
+  </div>
+</div>
