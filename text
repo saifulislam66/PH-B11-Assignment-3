@@ -33,3 +33,94 @@ bg-[url('./assets/cat-big.png')]
     <img src="./assets/cute-pet-mid.png" alt="" />
   </div>
 </div>
+
+<div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
+  <div class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center">
+    <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+  </div>
+  <div>
+    <h4 class="text-lg">
+      <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
+    </h4>
+    <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
+    <p class="text-lg font-semibold text-gray-800">$39,99</p>
+  </div>
+</div>
+<!-- card  -->
+<div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
+  <div class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center">
+    <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+  </div>
+  <div>
+    <h4 class="text-lg">
+      <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
+    </h4>
+    <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
+    <p class="text-lg font-semibold text-gray-800">$39,99</p>
+  </div>
+</div>
+<!-- card  -->
+<div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
+  <div class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center">
+    <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+  </div>
+  <div>
+    <h4 class="text-lg">
+      <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
+    </h4>
+    <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
+    <p class="text-lg font-semibold text-gray-800">$39,99</p>
+  </div>
+</div>
+<!-- card  -->
+<div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
+  <div class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center">
+    <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+  </div>
+  <div>
+    <h4 class="text-lg">
+      <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
+    </h4>
+    <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
+    <p class="text-lg font-semibold text-gray-800">$39,99</p>
+  </div>
+</div>
+<!-- card  -->
+<div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
+  <div class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center">
+    <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+  </div>
+  <div>
+    <h4 class="text-lg">
+      <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
+    </h4>
+    <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
+    <p class="text-lg font-semibold text-gray-800">$39,99</p>
+  </div>
+</div>
+<!-- card  -->
+<div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
+  <div class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center">
+    <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+  </div>
+  <div>
+    <h4 class="text-lg">
+      <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
+    </h4>
+    <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
+    <p class="text-lg font-semibold text-gray-800">$39,99</p>
+  </div>
+</div>
+<!-- card  -->
+<div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
+  <div class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center">
+    <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+  </div>
+  <div>
+    <h4 class="text-lg">
+      <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
+    </h4>
+    <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
+    <p class="text-lg font-semibold text-gray-800">$39,99</p>
+  </div>
+</div>

@@ -101,11 +101,11 @@
 
     <header class="container mx-auto px-5">
       <div
-        class="banner h-[600px] bg-right-bottom bg-no-repeat bg-[url('./assets/cat-big.png')]"
+        class="banner h-[400px] md:h-[600px] bg-contain bg-right-bottom bg-no-repeat bg-[url('./assets/cat-big.png')]"
       >
         <div class="bannner-content pt-10 md:w-1/2">
           <h1
-            class="text-[30px] md:text-[56px] font-bold leading-tight text-gray-800"
+            class="text-[30px] md:text-[56px] mb-3 font-bold leading-tight text-gray-800"
           >
             Pamper Your Pet,<br />
             Because They Deserve <br />
@@ -115,7 +115,12 @@
             Discover a world of treats, toys, and essentials handpicked for your
             furry friends. Shop now and make tails wag with joy!
           </p>
-          <button class="btn mt-5 bg-[#FFDC26]">Find a pet</button>
+
+          <button
+            class="px-6 py-3 bg-[#FFDC26] mt-5 text-gray-800 font-bold rounded-lg animate-pulse"
+          >
+            Find a pet
+          </button>
         </div>
       </div>
     </header>
@@ -205,13 +210,16 @@
         <!-- Categories cards  -->
       </section>
       <!-- terending pet section  -->
-      <section class="bg-[#FFF9F4] rounded-lg my-20 py-20">
+      <section class="bg-[#FFF9F4] rounded-lg mt-10 py-20">
         <h2 class="text-3xl text-gray-800 font-semibold">
           Browse By Categories
         </h2>
-        <div class="mt-10 grid grid-cols-9 grid-rows-3 gap-5">
+        <div
+          class="mt-10 grid grid-cols-4 lg:grid-cols-9 md:grid-rows-3 gap-3 md:gap-5"
+        >
+          <!-- trandig big card  -->
           <div
-            class="bg-[#F9DF8A] rounded-lg relative p-5 justify-between col-span-3 row-span-3"
+            class="bg-[#F9DF8A] rounded-lg relative pt-24 md:p-5 col-span-4 md:col-span-3 md:row-span-3 flex items-end justify-end"
           >
             <div class="absolute top-5 left-5">
               <h3 class="text-2xl mb-5 text-gray-800 font-semibold">
@@ -223,144 +231,216 @@
               </p>
               <button class="btn bg-white mt-5">Shop Now</button>
             </div>
-            <div class="flex items-end justify-end">
-              <img class="w-[230px]" src="./assets/cute-pet-mid.png" alt="" />
+            <div class="">
+              <img class="w-[200px]" src="./assets/cute-pet-mid.png" alt="" />
             </div>
           </div>
 
           <!-- small cards  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
-          <div class="bg-white rounded-lg p-3 flex gap-5 col-span-2">
-            <div
-              class="p-5 rounded-lg bg-[#FFF9F4] flex items-center justify-center"
-            >
-              <img class="w-[50px]" src="./assets/dog-cartoon.png" alt="" />
+          <div
+            class="bg-white rounded-lg p-1 md:p-3 flex items-center gap-3 md:gap-5 col-span-2"
+          >
+            <div class="p-1 md:p-1 rounded-lg flex items-center justify-center">
+              <div class="p-3 rounded-lg bg-[#FFF9F4]">
+                <img class="" src="./assets/dog-cartoon.png" alt="" />
+              </div>
             </div>
             <div>
-              <h4 class="text-lg">
+              <h4 class="text-lg leading-tight">
                 <i class="text-orange-300 me-2 fa-solid fa-star"></i>4.5
               </h4>
-              <h4 class="text-xl font-semibold text-gray-800">Pet Bet</h4>
-              <p class="text-lg font-semibold text-gray-800">$39,99</p>
+              <h4
+                class="text-lg leading-tight md:text-xl font-semibold text-gray-800"
+              >
+                Pet Bet
+              </h4>
+              <p class="text-sm md:text-lg font-semibold text-gray-800">
+                $39,99
+              </p>
             </div>
           </div>
           <!-- card  -->
@@ -368,7 +448,7 @@
       </section>
 
       <!-- Trending Pet Products -->
-      <section class="py-20 mb-96">
+      <section class="py-12 mb-[450px] md:mb-56">
         <h2 class="text-3xl text-gray-800 font-semibold">Everyday low Price</h2>
         <div class="mt-7 grid grid-cols-1 md:grid-cols-5 items-center gap-5">
           <div
@@ -421,6 +501,69 @@
         </div>
       </section>
     </main>
+
+    <footer
+      class="bg-[#FFDC26] pt-[400px] md:pt-[300px] pb-5 container mx-auto px-5"
+    >
+      <div class="relative">
+        <!-- footer card -->
+        <div
+          class="w-[80%] absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 -top-[480px] md:-top-[300px] bg-gray-100 p-5 rounded-lg grid col-span-1 gap-5 md:grid-cols-6"
+        >
+          <div class="md:col-span-2">
+            <img class="w-[320px]" src="./assets/cute-pet-mid.png" alt="" />
+          </div>
+          <div class="md:col-span-4 pt-10">
+            <h5 class="text-[36px] text-gray-800 font-semibold">
+              Get Pawsome News!
+            </h5>
+            <p class="text-lg text-gray-800 my-3">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <div>
+              <input
+                class="py-3 w-[180px] md:w-[430px] px-3 rounded-lg bg-[#FFFFFF]"
+                type="text"
+                placeholder="Enter Email..."
+              />
+            </div>
+            <button class="btn mt-5 bg-[#FFDC26]">Subscribe</button>
+          </div>
+        </div>
+        <!-- footer content  -->
+        <div
+          class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between"
+        >
+          <div class="">
+            <div class="flex gap-3 items-center">
+              <img src="./assets/logo-footer.png" alt="" />
+              <span class="text-2xl font-semibold mb-5">Browse4Pets</span>
+            </div>
+            <p class="text-lg">
+              Discover a world of treats, toys, and <br />
+              essentials handpicked for your furry <br />
+              friends
+            </p>
+          </div>
+          <div class="text-lg">
+            <ul>
+              <li><a class="" href="">Home</a></li>
+              <li><a class="" href="">About</a></li>
+              <li><a class="" href="">Contact</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <h4 class="text-xl font-semibold mb-3">Follow Us</h4>
+            <div class="text-2xl flex gap-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script>
       module.exports = {
